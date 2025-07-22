@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styles</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h2{
+            text-align: center;
+            /*Used to keep our text at centre of webpage*/
+            text-transform: uppercase;
+            /*Used to Convert the our line to different style like uppercase etc*/
+            text-decoration: underline;
+            /*Used to give decoratiuon to our text*/
+            text-decoration-color: brown;
+            /*Used to provide color to our decoration*/
+            text-decoration-style: dashed;
+            /*used to define the style of our decoration*/
+            text-decoration-thickness: 5px;
+            /*Used to define thickness of our decorations*/
+
+        }
+        p{
+            /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+            font-family: "Poppins", sans-serif;
+            /*poppins is style which we have imported using the import function*/
+            font-style: italic;
+            /*Used to give the style to our font*/
+            font-weight: 400;
+            /*USed to define the Darkness of our fond*/
+        }
+        .lorem{
+            text-overflow: ellipsis;
+            border: solid rebeccapurple;
+            width: 300px;
+            overflow: scroll;
+            line-height: 5p;
+            letter-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>This is the text File for HTML</h1>
+        <h2>This the Example</h2>
+        <p>This is the Style of text in HTML files in our CSS</p>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita architecto molestias magni magnam animi accusamus, autem doloribus ab, ipsam reiciendis quae incidunt saepe suscipit cupiditate harum repudiandae inventore fuga dolore.</p>
+    </div>
+</body>
+</html>

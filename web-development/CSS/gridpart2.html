@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 2 Second</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: grid;
+            grid-template-areas: "nav nav nav"
+                                 "left main right"
+                                 "footer footer footer";
+            gap: 30px;
+        }
+
+        .item{
+            border: 2px solid brown;
+            height: 55px;
+        }
+
+        .item-1{
+            grid-area: nav;
+            text-align: center;
+        }
+
+        .item-2{
+            grid-area: left;
+            text-align: center;
+        }
+
+        .item-3{
+            grid-area: main;
+            text-align: center;
+        }
+
+        .item-4{
+            grid-area: right;
+            text-align: center;
+        }
+        
+        .item-5{
+            grid-area: footer;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item-1">This is the nav bar area acc to grid</div>
+        <div class="item item-2">This is left space of grid</div>
+        <div class="item item-3">This is main space of our text</div>
+        <div class="item item-4">This is the left space of text</div>
+        <div class="item item-5">This is the Footer of our text</div>
+        
+    </div>
+</body>
+</html>

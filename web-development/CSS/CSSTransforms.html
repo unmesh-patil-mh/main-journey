@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms</title>
+    <style>
+        .container{
+            background-color: antiquewhite;
+            width: 60vw;
+            height: 80vh;
+        }
+
+        .box{
+            background-color: aqua;
+            transition-property: transform;
+            transition-duration: 3s;
+            transition-timing-function: cubic-bezier(0, 0.51, 1, 0.16);
+            transition-delay: 1s;
+            height: 10px;
+            width: 30px;
+        }
+
+        .transform{
+            transform: translateX(20vw) translateY(50vh) scale(5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box transform"></div>
+    </div>
+</body>
+</html>

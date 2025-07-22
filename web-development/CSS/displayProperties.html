@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>
+    <style>
+        *{
+            margin: 20px;
+            padding: 0;
+        }
+
+        .A{
+            border: 5px solid black;
+            color: aliceblue;
+            background-color: aqua;
+            margin: 10px;
+            display: none;
+            /*Used to hide our block completly with space it has been allocates also removed*/
+        }
+
+        .B{
+            border: 5px solid black;
+            color: darkblue;
+            background-color: lightblue;
+            margin: 10px;
+            visibility: hidden;
+            /*Used to hide our block completly but space it has been allocates remains*/
+        }
+
+        div{
+            display: inline-block;
+            border: 5px solid black;
+            color: darkorange;
+            background-color: lightgoldenrodyellow;
+            margin: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <span class="A">Span is an inline element</span>
+    <span class="B">Span do not take whole width</span>
+    <div>This is the box element converted into inline</div>
+</body>
+</html>

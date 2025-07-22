@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object-Fill and Object-cover</title>
+    <style>
+        .container1{
+            border: 2px solid black;
+            height: 250px;
+            width: 350px;
+            background-color: antiquewhite;
+        }
+
+        img{
+            height: 250px;
+            width: 350px;
+            /* object-fit: cover; */
+            /* object-fit: contain; */
+            /* object-fit: fill; */
+            /* Object fit will fit our image in the height and width given accordingly */
+
+            /* object-position: 10px 20px; */
+            object-position: center;
+            /* it will be used to position our object in our box or Container */
+        }
+
+        .container2{
+            border: 2px solid black;
+            height: 250px;
+            width: 350px;
+            background-color: antiquewhite;
+            margin-top: 20px;
+            background-image: url("https://wpengine.com/wp-content/uploads/2021/05/optimize-images-1024x681.jpg");
+            /* It will be used to fit image as background to the box */
+            background-position: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <img src="https://wpengine.com/wp-content/uploads/2021/05/optimize-images-1024x681.jpg" alt="">
+    </div>
+
+    <div class="container2">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Unit</title>
+    <style>
+
+        *{
+            margin: 10;
+            padding: 10;
+            font-size: 20px;
+            /*Indicates the overall size of our text in code*/
+        }
+
+        .A{
+            border: 10px solid black;
+            height: 50px;
+            color: aliceblue;
+            background-color: brown;
+        }
+
+        div > p{
+            border: 10px solid black;
+            background-color: aqua;
+            width: 80vw;
+            /*This tells us that our 80 percent of total width is used to write in tota;*/
+            min-height: 80vh;
+            /*This tells us thar minimum 80 percent of our minimum height will be used compulsorily it can be extended further*/
+            margin: 20px auto;
+            /*Sets our text in midddle based on the space taken 20px is top and bottom margin*/
+        }
+
+        .B{
+            border: 10px solid black;
+            background-color: blueviolet;
+            font-size: 2em;
+            /*Indicated that average size of font will be 2 times the size of rest of the fond*/
+        }
+    </style>
+</head>
+<body>
+    <div class="A">
+        This is the video on our CSS sizing units present 
+    </div>
+
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolorem similique? Tenetur maiores, corporis harum aspernatur numquam at, quisquam repellat voluptatem quibusdam quos voluptas commodi beatae enim dicta maxime nihil nesciunt rerum. Accusamus vero voluptate est voluptas incidunt, repellat non earum fugiat odit illum velit?
+        </p>
+    </div>
+
+    <div class="B">
+        This is the end bracket of our text 
+    </div>
+    <!--Baki ke Units khud se padh lena Book me se present hai-->
+</body>
+</html>

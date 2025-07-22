@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .boxes{
+            border: 2px solid black;
+            background-color: aqua;
+            height: 50vh;
+            display: flex;
+            /* ye humhare flex ke sare component use karne ke liye help karta initial direction is left to right of boxes */
+            justify-content: center;
+            /* ye humhare content ko main axis ke centre me lata hai yaha humhare main axis left to right hai */
+            align-items: center;
+            /* It arranges our elemnt into centre of our cross axis */
+            justify-content: space-around;
+            /* ye humhare elements ko evenly space karta hai main axis ke hisab se */
+            flex-direction: row;
+            /* ye humhare elements ko row ya columns ke hisab se arrange hote hai */
+            flex-wrap: wrap;
+            /* Agar elements overflow honge to ye multiple rows ya columns create kar lega */
+        }
+
+        .box{
+            border: 2px solid black;
+            height: 60px;
+            width: 60px;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <!--Book se extra bhi padh lo aram se book me se-->
+</body>
+</html>

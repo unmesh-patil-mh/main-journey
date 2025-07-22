@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*Element Selector*/
+        div {
+            background-color: antiquewhite;
+        }
+
+        /*Class Selector*/
+        .X {
+            background-color: aqua;
+        }
+
+        /*ID Selector*/
+        #A {
+            background-color: bisque;
+        }
+
+        /*Child Selector*/
+        div > p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /*Descendent Selector*/
+        div p {
+            color: blueviolet;
+            background-color: black;
+        }
+
+        /*Universal Selector*/
+        * {
+            margin: 5;
+            padding: 5;
+        }
+    </style>
+</head>
+<body>
+    <div> This is the Done using Element Selector</div>
+
+    <span class="x"> This is done using Class Selector</span>
+
+    <p id="A"> This is done using ID Selector</p>
+
+    <div>
+        <p>This is performed using Child Selector</p>
+    </div>
+
+    <div>
+        <span>
+            <p>This is performed using Desendent Selector</p>
+        </span>
+    </div>
+
+    <!--Study Pseudo Selector From the Book-->
+</body>
+</html>

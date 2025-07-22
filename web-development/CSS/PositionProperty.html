@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Properties</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            border: 2px solid black;
+            height: 30vh;
+            margin: 3px;
+            color: black;
+            
+        }
+
+        .box1{
+            position: static;
+            background-color: aliceblue;
+        }
+
+        .box2{
+            position: absolute;
+            background-color: antiquewhite;
+            top: 100px;
+            right: 250px;
+        }
+
+        .box3{
+            position: fixed;
+            top: 300px;
+            left: 25vw;
+            background-color: blue;
+            z-index: 1;
+            /* Ye overkarne ke liye use karte hai isse nikala to niche chup jayega humhara fixed block */
+        }
+
+        .box4{
+            position: sticky;
+            top: 0px;
+            background-color: aqua;
+        }
+
+        .box5{
+            height: 4000px;
+            background-color: rgb(73, 46, 13);
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">Static Position</div>
+    <div class="box box2">Absolute Position</div>
+    <div class="box box3">Fixed position</div>
+    <div class="box box4">sticky position</div>
+    <div class="box box5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum officia, error facere dolorem odit magnam numquam ab adipisci harum saepe. Amet dolores minima quia. Nesciunt omnis, repellendus fuga veritatis, fugiat, ducimus a cumque ipsum explicabo consectetur rem alias aliquid blanditiis! Quas quia amet quod. Eos ex velit explicabo ad fugit recusandae dolores, deserunt earum aspernatur libero provident debitis, error eveniet, reiciendis minus delectus dolor odio. Expedita necessitatibus dolor, ipsam consequuntur, porro nostrum assumenda possimus rem voluptates laudantium tenetur. Inventore suscipit officia eaque ducimus distinctio, harum quas repudiandae eum consectetur atque aut voluptatibus voluptatem porro quasi mollitia nesciunt soluta voluptas cupiditate.</div>
+</body>
+</html>

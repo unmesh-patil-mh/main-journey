@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadow and Outlines in CSS</title>
+    <style>
+    .box{
+        border: 2px solid black;
+        color: black;
+        background-color: aliceblue;
+        box-shadow: 10px 5px 15px 5px black;
+    }
+
+    .text{
+        color: violet;
+        text-shadow: 10px 14px 4px violet;
+    }
+
+    .out{
+        border: 2px solid blue;
+        outline: 2px solid black;
+        outline-offset: 2px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="box">This is box with shadow</div>
+
+    
+      <p class="text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos earum
+        nobis, tempore odit iusto mollitia nesciunt quae sequi a odio!
+      </p>
+    
+
+    <div class="Out">This is box with outline</div>
+  </body>
+</html>

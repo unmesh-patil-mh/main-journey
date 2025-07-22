@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .A{
+            border: 2px solid black;
+            overflow: auto;
+            height: 20vh;
+            width: 40vw;
+        }
+
+        .B{
+            border: 2px solid black;
+            height: 3vh;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .C{
+            border: 2px solid black;
+            height: 10vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is the auto feature when overflow occurrs then scroll bar is generated</h2>
+    <p class="A">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolorum aperiam illo ut modi, eveniet natus illum provident consequatur nostrum a neque asperiores, voluptatibus error temporibus. Quod laudantium molestiae esse temporibus perferendis rerum. Debitis ex sit aut nemo placeat, minus assumenda dolores harum distinctio, unde reiciendis nulla dolore, dolorem saepe!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus suscipit rem dolorem necessitatibus, enim minima at libero. Incidunt quisquam voluptatum ipsum maiores, cupiditate esse earum autem officia, quas necessitatibus fugit!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, laboriosam! Optio quos placeat culpa velit veniam, iure neque sapiente, dolorem illo ratione iusto ducimus officia aperiam tempora ea rerum fuga aliquam, doloribus eveniet amet magni minus repellendus facilis consequuntur! Repudiandae, doloremque debitis ullam possimus laboriosam nesciunt error ab inventore blanditiis.
+    </p>
+
+    <h2>This is just Condition to show dotted lines</h2>
+    <p class="B">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto eum cupiditate non at expedita vel, neque odit sit explicabo dignissimos quis minima, eos iste obcaecati, voluptatibus saepe quae incidunt mollitia?
+    </p>
+
+    <h2>This the condition to give scroll to just x or y axis</h2>
+    <p class="C">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eligendi blanditiis minus qui maxime voluptatum molestias modi et perferendis voluptas vel voluptates, dicta commodi quia voluptatem, asperiores iure! Omnis, aspernatur eligendi. Debitis, corporis inventore voluptate veritatis quos tenetur obcaecati consequatur.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe atque rerum, et error temporibus nemo quas illo architecto, nostrum iure, eligendi mollitia officia omnis cumque animi itaque. Unde explicabo suscipit, impedit distinctio rerum libero iure quibusdam iusto cum modi sint pariatur! Placeat explicabo aspernatur quasi non sequi, veniam error ea.
+    </p>
+</body>
+</html>

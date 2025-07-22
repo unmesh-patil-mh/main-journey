@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        /*The specificity of Universal selector is 0*/
+        h1{ 
+            color: aqua;
+        }
+
+        /*The specificity of Class selector is 10*/
+        .yellow{
+            color: yellow;
+        }
+        /*The specificity of Universal Class is 10*/
+        .red{
+            color: red;
+        }
+        /*The specificity of Universal Class is 10*/
+        .blue{
+            color: blue;
+        }
+        /*As specificity of Class selector is 10 so which is at last will be considered in above statements check it */
+
+        /*The specificity of ID selector is 100*/
+        #voilet{
+            color: violet;
+        }
+        
+        /*If the important keyword is used then it will be implemented no matter what*/
+        h1{
+            background-color: aqua !important;
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+
+        #voilet{
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="yellow red blue" id="voilet">
+        Hii this is the demo line
+    </h1>
+</body>
+</html>

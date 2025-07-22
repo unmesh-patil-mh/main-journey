@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        .main *{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        
+        .sec:first-child{
+            color: orange;
+        }
+
+        .sec:nth-child(2){
+            color: blue;
+        }
+
+        .ter::first-line{
+            color: aqua;
+        }
+
+        [data-color="Primary"]{
+            color: brown;
+        }
+
+        .main::before{
+            content: "This is Extra on our CSS Selectors";
+        }
+
+        .main::after{
+            content: "This is the end of my trials";
+        }
+
+        input::placeholder{
+            background-color: rgb(48, 141, 207);
+            color: blue;
+        }
+
+        .sec::first-letter{
+            font-size: 40px;
+            color: chocolate;
+        }
+
+        [data-color="Primary"]::first-letter{
+            font-size: 40px;
+            color: chocolate;
+        }
+
+        ::selection{
+            background-color: rgb(225, 10, 114);
+            color: aqua;
+            /* Yaha kuch text copy karne ke koshis karo samaj jayega dekh lena */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sec">I am first div</div>
+        <div class="sec">I am Second div</div>
+        <div class="ter">I am  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae placeat, necessitatibus qui et, dolorum hic nulla minus porro eveniet ullam ducimus assumenda, error laborum animi in incidunt nobis voluptas ipsa.v Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, laboriosam quas. Nesciunt quod exercitationem iusto accusamus nemo laboriosam maiores maxime impedit nostrum provident corporis non labore, reiciendis esse obcaecati voluptates?</div>
+        <div data-color="Primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, magni placeat repudiandae similique autem quos, odio iure quaerat voluptatum eos. Tempora eveniet facere provident commodi iure voluptatem enim corrupti.</div>
+    </div>
+    
+    <input type="text" placeholder="Type anything here">
+</body>
+</html>
