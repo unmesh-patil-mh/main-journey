@@ -32,7 +32,7 @@ It reflects my consistent effort to improve and grow as a developer.
 - JavaScript  
 
 ### ⚙️ Backend
-- Python  
+- Java  
 - JDBC Connectivity  
 - Basic Backend Logic  
 
@@ -47,7 +47,7 @@ It reflects my consistent effort to improve and grow as a developer.
 
 - 🎬 Netflix Static Clone  
 - 🐦 Twitter UI Clone  
-- 🔐 Register & Login System (Python + MySQL + JDBC)  
+- 🔐 Register & Login System (Java + MySQL + JDBC)  
 - 🗄️ MySQL Database Practice Repository  
 
 *(More projects coming soon...)*
@@ -114,9 +114,9 @@ If you find this inspiring, feel free to star ⭐ the repository.
 
 ## 📬 Connect With Me
 
-GitHub: https://github.com/unmesh-patil-mh 
-LinkedIn: www.linkedin.com/in/unmeshpatil2005
-Email: punmesh56@gmail.com
+GitHub: https://github.com/unmesh-patil-mh <br>
+LinkedIn: www.linkedin.com/in/unmeshpatil2005 <br>
+Email: punmesh56@gmail.com <br>
 
 ---
 
